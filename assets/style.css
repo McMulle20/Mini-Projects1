@@ -24,3 +24,6 @@ body {
     background-color: #b97638;
     color: black;
   }
+  #nav-links {
+    text-decoration: none;
+  }
