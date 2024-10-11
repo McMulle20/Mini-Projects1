@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh; /* Ensure the body takes full viewport height */
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #b97638;
+    height: 25%;
+  }
+/* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #fff;
+    display: block; /* Makes links stack vertically */
+    text-decoration: none; /* Remove underline from links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #b97638;
+    color: black;
+  }
