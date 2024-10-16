@@ -1,3 +1,6 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body {
     margin: 0;
     height: 100vh; /* Ensure the body takes full viewport height */
@@ -12,18 +15,15 @@ body {
   .topnav a {
     float: left;
     color: #fff;
-    display: block; /* Makes links stack vertically */
-    text-decoration: none; /* Remove underline from links */
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
   }
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #b97638;
     color: black;
   }
-  #nav-links {
+  .nav-links {
     text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    text-align: center;
   }
